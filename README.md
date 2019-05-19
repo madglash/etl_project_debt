@@ -8,4 +8,4 @@ In order to see our code run successfully, please take the following actions:
 2. Confirm that PostgreSQL is installed.
 3. Execute each step in 2_Transform_and_Load.ipynb.
 
-NOTE: Change the username and password to your credentials in engine = create_engine('postgresql://<USER>:<password>@localhost:5432/mydb')
+NOTE: Change the username and password to your credentials in engine = create_engine('postgresql://USER:password@localhost:5432/mydb')
